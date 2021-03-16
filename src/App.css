@@ -3,8 +3,10 @@
 }
 
 .nav {
-    background-color: rgb(14, 123, 212);
+    background-color: whitesmoke;
     padding: 1rem;
+    border-color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav-bar {
@@ -12,11 +14,31 @@
 }
 
 .user-bar {
-    width: 3rem;
+    background-color: whitesmoke;
+    width: 1rem;
     justify-content: left;
-    left: 0.5rem;
+}
+
+.community-bar {
+    background-color: whitesmoke;
+    width: 1rem;
+    justify-content: right;
 }
 
 button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 12px;
+    border-radius: 4px;
     border: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: justify;
+    transition-duration: 0.3s;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(197, 197, 197);
 }

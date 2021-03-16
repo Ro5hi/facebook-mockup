@@ -6,7 +6,9 @@ function App() {
       <div class="nav">
         <div class="nav-bar">
           <button onClick={""}>Facebook</button>
-          <button onClick={""}>Search</button>
+          <input type="text"
+                 placeholder="Search Facebook">
+          </input>
           <button onClick={""}>Home</button>
           <button onClick={""}>Pages</button>
           <button onClick={""}>Watch</button>
@@ -19,7 +21,7 @@ function App() {
         </div>
       </div>
       <div class="user-bar">
-        <h4>Name</h4>
+        <h4>FirstName LastName</h4>
         <button onClick={""}>Friends</button>
         <button onClick={""}>Groups</button>
         <button onClick={""}>Memories</button>
@@ -29,6 +31,13 @@ function App() {
           <button onClick={""}>Example Group</button>
           <button onClick={""}>See More</button>
         </div>
+      </div>
+      <div class="community-bar">
+        <h3>Your Pages</h3>
+          <button onClick={""}>Example User Page</button>
+        <h3>Contacts</h3>
+          <button onClick={""}>Friend 1</button>
+          <button onClick={""}>Friend 1</button>
       </div>
     </div>
   );
