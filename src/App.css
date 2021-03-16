@@ -1,0 +1,22 @@
+.wall {
+    background-color: white;
+}
+
+.nav {
+    background-color: rgb(14, 123, 212);
+    padding: 1rem;
+}
+
+.nav-bar {
+    justify-items: center;
+}
+
+.user-bar {
+    width: 3rem;
+    justify-content: left;
+    left: 0.5rem;
+}
+
+button {
+    border: none;
+}
