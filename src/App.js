@@ -45,10 +45,12 @@ function App() {
                  type="text"
                  placeholder="What's on your mind?"> 
           </input>
+          <br/>
           <button onClick={""}>Live Video</button>
           <button onClick={""}>Photo/Video</button>
           <button onClick={""}>Feeling/Activity</button>
         </div>
+        .
       </div>
     </div>
   );
