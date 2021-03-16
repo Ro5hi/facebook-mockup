@@ -39,6 +39,17 @@ function App() {
           <button onClick={""}>Friend 1</button>
           <button onClick={""}>Friend 1</button>
       </div>
+      <div class="news-feed">
+        <div class="create-tab">
+          <input class="new-post"
+                 type="text"
+                 placeholder="What's on your mind?"> 
+          </input>
+          <button onClick={""}>Live Video</button>
+          <button onClick={""}>Photo/Video</button>
+          <button onClick={""}>Feeling/Activity</button>
+        </div>
+      </div>
     </div>
   );
 }
