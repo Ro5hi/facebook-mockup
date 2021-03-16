@@ -5,6 +5,7 @@
 .nav {
     background-color: whitesmoke;
     width: 100%;
+    top: 2%;
     padding: 1rem;
     border-color: black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -13,21 +14,27 @@
 
 .nav-bar {
     justify-items: center;
+    width: 100%;
+    top: 1%;
+    padding: 0.2rem;
+    position: relative;
 }
 
 .user-bar {
     background-color: whitesmoke;
-    width: 1rem;
-    top: 7rem;
-    left: 2rem;
+    width: 10%;
+    top: 10%;
+    bottom: 100%;
+    left: 12rem;
     position: fixed;
 }
 
 .community-bar {
     background-color: whitesmoke;
-    width: 1rem;
-    top: 7rem;
-    right: 10rem;
+    width: 10%;
+    top: 10%;
+    bottom: 100%;
+    right: 12rem;
     position: fixed;
 }
 
