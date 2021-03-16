@@ -4,9 +4,11 @@
 
 .nav {
     background-color: whitesmoke;
+    width: 100%;
     padding: 1rem;
     border-color: black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
 }
 
 .nav-bar {
@@ -16,13 +18,17 @@
 .user-bar {
     background-color: whitesmoke;
     width: 1rem;
-    justify-content: left;
+    top: 7rem;
+    left: 2rem;
+    position: fixed;
 }
 
 .community-bar {
     background-color: whitesmoke;
     width: 1rem;
-    justify-content: right;
+    top: 7rem;
+    right: 10rem;
+    position: fixed;
 }
 
 button {
